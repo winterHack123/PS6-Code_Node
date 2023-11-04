@@ -2,7 +2,7 @@ import { group } from "@/detail";
 
 const Page = () => {
   // Find the DSA group
-  const dsaGroup = group.find((g) => g.name === "MBA");
+  const dsaGroup = group.find((g) => g.name === "AI");
 
   return (
     <div className="container mx-auto px-4 py-8">
