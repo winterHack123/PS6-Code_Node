@@ -1,4 +1,4 @@
-const group = [
+export const group = [
   {
     name: "DSA",
     members: ["Raj", "Rahul", "Saksham", "Suresh"],
