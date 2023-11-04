@@ -19,20 +19,21 @@ const getGroupColor = (index) => {
 };
 
 const Page = () => {
-  return (
-    <div className="flex flex-wrap justify-center">
+  return (<><h1 className="text-3xl font-bold mb-4 text-center">Communities</h1>
+    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 justify-center">
+      
       {group.map((group, index) => (
         <div key={group.id} className="m-4">
           <Link href={`/Dashboard/${group.name}`}>
             <button
-              className={`${getGroupColor(index)} hover:${getGroupColor(index + 1)} text-white font-bold py-4 px-8 rounded-lg focus:outline-none focus:shadow-outline`}
+              className={`${getGroupColor(index)} hover:${getGroupColor(index + 1)} text-white font-bold py-8 px-12 rounded-lg focus:outline-none focus:shadow-outline w-full`}
             >
               {group.name}
             </button>
           </Link>
         </div>
       ))}
-    </div>
+    </div></>
   );
 };
 
