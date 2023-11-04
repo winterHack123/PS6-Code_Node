@@ -2,7 +2,7 @@ import Link from "next/link"
 const page = () => {
   return (
     <div><Link href="/Home/Signup"><button> Sign Up</button></Link><br />
-    <button>Login</button></div>
+    <Link href="/Home/Login"><button>Login</button></Link></div>
   )
 }
 
