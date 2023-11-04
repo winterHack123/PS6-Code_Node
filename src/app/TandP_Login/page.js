@@ -23,11 +23,12 @@ const Page = () => {
           />
           <div className="flex items-center justify-between">
             <Link href="/Dashboard">
-              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline mr-4 items-center">
+              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline mr-4">
                 Submit
               </button>
             </Link>
-            
+            <div className="items-center">
+              </div>
           </div>
         </div>
       </form>

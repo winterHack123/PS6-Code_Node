@@ -1,9 +1,10 @@
 import { group } from "@/detail"
 
 const page = () => {
-  return (
-    <div></div>
-  )
-}
+
+    {group.map((group)=>(
+    <div><h1>{group.members}</h1></div>))}
+  
+    }
 
 export default page
