@@ -16,7 +16,7 @@ export const group = [
     members: ["Raj", "Rahul", "Saksham", "Harsh"],
   },
   {
-    name: "Data science",
+    name: "Datascience",
     members: ["Raj", "Rahul", "Saksham", "Suresh"],
   },
   {

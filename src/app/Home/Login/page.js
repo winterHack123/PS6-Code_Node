@@ -1,17 +1,33 @@
-import LINK from "next/link"
-const page = () => {
+"use client"
+import { useRouter } from "next/Navigation";
+
+export default function Page() {
+  const router = useRouter();
   return (
-    <div>
-      <h1>LOGIN FOR STUDENTS</h1>
-      <form action="">
-        Name: <input type="text" placeholder="Name" />
-        Password <input type="password" name="" id="pass" /><br></br>
-        <LINK href="/DashboardS" ><button>SUBMIT</button></LINK>
-        <LINK href="/Home/Signup"><button>SIGN UP</button></LINK>
-        <LINK href="/"><button>HOME</button></LINK>
-    </form></div>
-
-  )
+    <div className="flex justify-center items-center h-screen">
+      <div className="bg-white p-8 rounded-lg shadow-md w-96">
+        <h1 className="text-2xl font-semibold mb-4">Student Login</h1>
+        <input
+          type="email"
+          placeholder="Email"
+          id="email"
+          className="border rounded-lg w-full py-2 px-3 mb-4"
+        />
+        <input
+          type="password"
+          placeholder="Password"
+          id="password"
+          className="border rounded-lg w-full py-2 px-3 mb-4"
+        />
+        <button
+          type="submit"
+          id="login-button"
+          onClick={() => router.push("/Dashboard")}
+          className="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600"
+        >
+          Login
+        </button>
+      </div>
+    </div>
+  );
 }
-
-export default page
