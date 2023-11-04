@@ -6,8 +6,8 @@ import { group } from "@/detail"
 const Page = () => {
   return (
     <div>
-      {group.map((group)=>(
-        <h1 key={group.id}>{group.name}</h1>
+      {group.map((group)=>(<div>
+        <Link href={`/Dashboard/${group.id}`}><button key={group.id}>{group.name}</button></Link><br></br></div>
       ))}
     </div>
   )
