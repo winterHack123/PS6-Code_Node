@@ -16,13 +16,13 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
-    apiKey: "AIzaSyDcr9kjhcMQQ8vI5fQTMCrsR5inzLDIykg",
-    authDomain: "chat-cde98.firebaseapp.com",
-    projectId: "chat-cde98",
-    storageBucket: "chat-cde98.appspot.com",
-    messagingSenderId: "1042388673481",
-    appId: "1:1042388673481:web:a9b8adedee82184b0b7e18",
-    measurementId: "G-P7SXYLTP9K"
+  apiKey: "AIzaSyBiiSGLKd_UyYdfyDptnS05JFi42StuswU",
+  authDomain: "my-hacakthon.firebaseapp.com",
+  projectId: "my-hacakthon",
+  storageBucket: "my-hacakthon.appspot.com",
+  messagingSenderId: "587623176800",
+  appId: "1:587623176800:web:b38aefd5bf67b68f40c105",
+  measurementId: "G-4LHRPFCKZ5"
 })
 
 const auth = firebase.auth();

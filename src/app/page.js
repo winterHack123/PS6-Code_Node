@@ -1,13 +1,33 @@
-import Link from "next/link"
+import Link from "next/link";
+import Navbar from "@/components/Navbar//Navbar";
 
 const page = () => {
   return (
-    <div className="flex flex-col justify-center items-center h-screen bg-gray-100"><h1 className="font-extrabold text-4xl mb-4">NIT Community</h1>
-    <Link  href="TandP_login"> <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg mb-2">T&P</button></Link><br></br>
-   <Link href="Home"><button className="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-lg">Students</button></Link>
+    <div className="app" >
+      <Navbar></Navbar>
+      <div className="main">
+    <div className="login-box">
+      <h1 className="">NIT Goa Community</h1>
+      <input type="text" />
+      <input type="password" />
+      <Link href="TandP_login">
+        <button>T&P</button>
+      </Link>
     </div>
 
-  )
-}
+    <div className="login-box">
+      <h1>Student login</h1>
+      <input type="text" name="" id="" placeholder="UserName" />
+      <input type="password" placeholder="Password" />
+    <Link href="Home">
+        <button>Sign in</button>
+      </Link>
+      Dont Have a account?<Link href="Sign-up">Sign Up</Link>
+    </div>
 
-export default page
+    </div>
+    </div>
+  );
+};
+
+export default page;

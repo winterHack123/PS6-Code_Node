@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# NIT GOA Community
 
-First, run the development server:
+The NIT Goa Community Portal serves as a digital nexus, bringing together students and faculty who share a range of interests, from technical subjects like DSA and Web Development to fields such as UPSC, Finance, MBA, and even hobbies like Dancing, Singing, and Robotics. This versatile platform provides the means to create groups, engage in group chats, schedule meetings, and most notably, it empowers users to prepare for interviews through mock interview sessions. It plays a pivotal role in enhancing the academic and career development experience at NIT Goa, fostering knowledge exchange, networking, and interview readiness.
+
+
+
+
+
+
+## Installation
+
+
+Install NIT Goa Community portal with npm
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  npm install
+  cd PS6-Code_Node
+  npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+If face any errors after downloading due to dependencies version mismatch debug using
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+  npm audit fix
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Run Locally
 
-## Learn More
+Clone the project
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+  git clone https://github.com/winterHack123/PS6-Code_Node
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Go to the project directory
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+  cd PS6-Code_Node
+```
 
-## Deploy on Vercel
+Install dependencies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+  npm install
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Start the server
+
+```bash
+  npm run dev
+```
+
+then Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
+
+## Features
+
+- Live chats
+- Live Group meet
+- Fullscreen mode
+- Cross platform
+
+## Tech Stack
+
+**Client:** Next.js, Firebase, TailwindCSS
+
+**Server:** Node, Firebase(BaaS)
+
+
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
+
+## Acknowledgements
+
+ - [Coding Club](https://github.com/Coding-Club-NIT-Goa)
+ - [Mentors](https://docs.google.com/spreadsheets/d/1L5yWTOEmshEsd2emGTTmWF4BVjFnp16121QbPEKmG74/edit#gid=0)
+
+
+
+## Support
+
+For support, email support@nitgoacommunity.com or join our Slack/Discord channel.
+
+
+## Authors
+
+- [@harshkh-001](https://github.com/harshkh-001)
+- [@Jsakshxm](https://github.com/Jsakshxm)
+- [@Raj100](https://github.com/Raj100)
