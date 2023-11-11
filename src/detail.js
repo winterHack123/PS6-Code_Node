@@ -16,11 +16,11 @@ export const group = [
     members: ["Raj", "Rahul", "Saksham", "Harsh"],
   },
   {
-    name: "Data science",
+    name: "Datascience",
     members: ["Raj", "Rahul", "Saksham", "Suresh"],
   },
   {
-    name: "Artificial Intelligence and machine learning",
+    name: "AI",
     members: ["Jay", "Karan", "Saksham", "Suresh"],
   },
   {
@@ -28,7 +28,7 @@ export const group = [
     members: ["Ramesh", "Riskshit", "Rajesh", "Ankit"],
   },
   {
-    name: "Web development",
+    name: "WebDevelopment",
     members: ["Raj", "Rahul", "Saksham", "Suresh"],
   },
   {
