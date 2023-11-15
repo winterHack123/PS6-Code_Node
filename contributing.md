@@ -6,7 +6,7 @@
 
 ### 🐞 Found a Bug?
 
-If you encounter a bug, please help us out by [submitting an issue](https://github.com/your-username/your-repo/issues). Be sure to include as much detail as possible, including how to reproduce the bug.
+If you encounter a bug, please help us out by [submitting an issue](https://github.com/winterHack123/PS6-Code_Node/issues). Be sure to include as much detail as possible, including how to reproduce the bug.
 
 ### 🌈 Want to Add a Feature?
 
@@ -53,7 +53,7 @@ Documentation is crucial! If you find something confusing or think the documenta
 
 ## Code of Conduct
 
-Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms.
+Please note that this project is released with a [Contributor Code of Conduct](https://github.com/winterHack123/PS6-Code_Node/blob/main/code%20of%20conduct.md). By participating in this project, you agree to abide by its terms.
 
 ## Questions or Concerns?
 
