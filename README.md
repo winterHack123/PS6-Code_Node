@@ -73,9 +73,9 @@ then Open [http://localhost:3000](http://localhost:3000) with your browser to se
 
 Contributions are always welcome!
 
-See `contributing.md` for ways to get started.
+See `[contributing.md](https://github.com/winterHack123/PS6-Code_Node/blob/main/contributing.md)` for ways to get started.
 
-Please adhere to this project's `code of conduct`.
+Please adhere to this project's `[code of conduct](https://github.com/winterHack123/PS6-Code_Node/blob/main/code%20of%20conduct.md)`.
 
 
 ## Acknowledgements
